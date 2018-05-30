@@ -1,0 +1,8 @@
+.blog-list-box {
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+
+.blog-category-icon {
+  height: 24px;
+}
