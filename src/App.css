@@ -1,3 +1,15 @@
+/* normalize */
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
 .App {
   
 }
@@ -23,12 +35,66 @@
   font-size: large;
 }
 
+/* 布局 */
+.container {
+  padding: 20px;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.margin-vertical {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* font */
+.text-indent {
+  text-indent: 2em;
+}
+
+.text-large {
+  font-size: 16px;
+  color: #111;
+}
+
+.text-middle {
+  font-size: 14px;
+  color: #333;
+}
+
+.text-small {
+  font-size: 12px;
+  color: #666;
+}
+
+.text-gray {
+  color: #666;
+}
+
+.text-light {
+  color: #999;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
-
-.app-container {
-  padding: 20px;
 }
 
