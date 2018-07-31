@@ -73,7 +73,7 @@ class App extends Component {
 
   navClick = (i, history) => {
     if (history.location.pathname.length > 6) {
-      history.push('/build')
+      history.push('/')
     }
     if (this.state.navIndex !== i) {
       const aimCategory = i > -1 ? categories[i] : -1
