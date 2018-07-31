@@ -26,7 +26,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router basename="/build">
+      <Router basename="/">
         <Route
           render={({ history }) => (
             <div className="App">
