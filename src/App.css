@@ -10,10 +10,6 @@ a {
   text-decoration: none;
 }
 
-.App {
-  
-}
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -21,6 +17,7 @@ a {
 }
 
 .App-header {
+  position: relative;
   background-color: #222;
   height: 80px;
   padding: 20px;
@@ -29,10 +26,6 @@ a {
 
 .App-title {
   font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
 }
 
 /* 布局 */

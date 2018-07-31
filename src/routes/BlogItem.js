@@ -13,7 +13,7 @@ export default class BlogItem extends Component {
   constructor (props) {
     super (props);
     const itemId = props.match.params.id
-    const data = blogListData[itemId] || {}
+    const data = blogListData[itemId - 1] || {}
     // 直接获取并设置标题等信息
     this.state = {
       title: data.title,
