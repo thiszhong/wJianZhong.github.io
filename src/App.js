@@ -12,7 +12,7 @@ import blogCategories from './data/blog/categories';
 import BlogListItem from './components/BlogListItem';
 
 const categories = Object.keys(blogCategories);
-const blogList = blogListData.reverse();
+const blogList = blogListData.slice().reverse();
 
 class App extends Component {
 
