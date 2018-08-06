@@ -4,7 +4,7 @@ import 'normalize.css';
 import './fonts/iconfont.css';
 import './App.css';
 import './styles/blog.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import BlogItem from './routes/BlogItem';
 import blogListData from './data/blog/list';
