@@ -5,4 +5,5 @@ export default {
   vue: {iconClass: 'icon-vuejs'},
   html: {iconClass: 'icon-html'},
   css: {iconClass: 'icon-css'},
+  other: {iconClass: 'icon-farmer'},
 }
