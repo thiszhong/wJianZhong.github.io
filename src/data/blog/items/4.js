@@ -6,27 +6,9 @@ export default class Content extends Component {
   render () {
     return (
       <div>
-        <div className="zcontainer">
-          <div className="zbox">
-            <div className="zfile-entry">
-              <input ref={this.myRefs} onChange={this.fileChange} id="fileInput" type="file" accept="image/*" multiple className="zinput-file" />
-              <button className="zbtn zbtn-file">添加图片</button>
-            </div>
-          </div>
-          <div className="zbox clearfix zff">
-            {
-              this.state.filesLocal.map((item, index) => (
-                <div key={`${item.name}${index}`} className="zfi">
-                  <img className="zfp" src={item.uri} title={item.name} alt="" />
-                  <div className="zinfo-line">
-                    大小：{item.size}
-                    <span className="zpr">上传中</span>
-                  </div>
-                </div>
-              ))
-            }
-          </div>
-        </div>
+        <ol>
+          <li>Vue cli 3.0 多页应用，当vue.config.js配置pages的数量大于5时，build打包时一直处于building而无法complete。workround：<a href="https://github.com/vuejs/vue-cli/issues/1996#issuecomment-415027750">https://github.com/vuejs/vue-cli/issues/1996#issuecomment-415027750</a></li>  
+        </ol>        
       </div>
     )
   }
