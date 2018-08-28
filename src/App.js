@@ -52,7 +52,7 @@ class App extends Component {
                   <div className="container">
                   {
                     this.state.blogList.map((item, index) => (
-                      <BlogListItem key={`${index}`} item={item} index={index} match={match} />
+                      <BlogListItem key={`${item.id}`} item={item} index={index} match={match} />
                     ))
                   }
                     <p className="text-small text-light text-center">不管你信不信，这是一条底线</p>
@@ -73,12 +73,13 @@ class App extends Component {
   }
 
   navClick = (i, history) => {
-    if (history.location.pathname.length > 6) {
+    console.log(history.location.pathname.length)
+    if (history.location.pathname.length > 1) {
       history.push('/')
     }
     if (this.state.navIndex !== i) {
       const aimCategory = i > -1 ? categories[i] : -1
-      const allList = blogListData.slice();
+      const allList = blogList.slice();
       let list = [];
       if (i > -1) {
         for (let j = 0, len = allList.length; j < len; j++) {
