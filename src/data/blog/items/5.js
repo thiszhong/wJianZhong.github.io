@@ -39,7 +39,6 @@ export default class Content extends Component {
     const val = e.target.value;
     if (this.timer) clearTimeout(this.timer);
     this.timer = setTimeout(() => {
-      console.log(val)
       this.setState({
         retInput: JSON.stringify(this.paramsTransform(val))
       })
