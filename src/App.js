@@ -73,7 +73,6 @@ class App extends Component {
   }
 
   navClick = (i, history) => {
-    console.log(history.location.pathname.length)
     if (history.location.pathname.length > 1) {
       history.push('/')
     }
