@@ -15,7 +15,9 @@ export default class Content extends Component {
   render () {
     return (
       <div>
-        <div className="zcontainer">
+        待整理...
+        <p>Vue版参见：<a href="https://github.com/thiszhong/v-upload/blob/master/src/components/Upload.vue">https://github.com/thiszhong/v-upload/blob/master/src/components/Upload.vue</a></p>
+        {/* <div className="zcontainer">
           <div className="zbox">
             <div className="zfile-entry">
               <input ref={this.myRefs} onChange={this.fileChange} id="fileInput" type="file" accept="image/*" multiple className="zinput-file" />
@@ -35,7 +37,7 @@ export default class Content extends Component {
               ))
             }
           </div>
-        </div>
+        </div> */}
       </div>
     )
   }
