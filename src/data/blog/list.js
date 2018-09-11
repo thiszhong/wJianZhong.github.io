@@ -14,4 +14,5 @@ export default [
   {id: 9, title: 'test', subtitle: '', time: '2018-09-11', category: 'other'},
   {id: 10, title: 'test a', subtitle: '', time: '2018-09-11', category: 'other'},
   {id: 11, title: 'test 11111a', subtitle: '', time: '2018-09-11', category: 'other'},
+  {id: 12, title: 'test 哈哈哈哈哈哈哈哈哈哈', subtitle: '', time: '2018-09-11', category: 'other'},
 ]
