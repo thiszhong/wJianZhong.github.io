@@ -3,7 +3,7 @@ import ClipboardJS from 'clipboard'
 
 const styles = {
   input: {
-    width: '100px'
+    width: '80px'
   }
 }
 
