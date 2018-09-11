@@ -9,4 +9,5 @@ export default [
   {id: 4, title: '日常随手记录', time: '2018-08-27', category: 'other'},
   {id: 5, title: '将url的所有参数输出为一个对象', subtitle: '场景：我们需要根据页面url中的id等参数去请求接口api', time: '2018-08-27', category: 'javascript'},
   {id: 6, title: 'Clipboard测试', subtitle: '', time: '2018-09-11', category: 'javascript'},
+  {id: 7, title: 'test', subtitle: '', time: '2018-09-11', category: 'others'},
 ]
