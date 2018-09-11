@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import ClipboardJS from 'clipboard'
 
+const styles = {
+  input: {
+    width: '100px'
+  }
+}
+
 export default class Content extends Component {
 
 
@@ -44,7 +50,7 @@ export default class Content extends Component {
           <h4>Test two</h4>
           <div>
             <span>测试内容：</span>
-            <input id="test2" defaultValue="2222" />
+            <input id="test2" style={styles.input} defaultValue="2222" />
             <button className="btn" data-clipboard-target="#test2">复制</button>
           </div>
         </div>
@@ -53,7 +59,7 @@ export default class Content extends Component {
           <h4>Test three</h4>
           <div>
             <span>测试内容：</span>
-            <input id="test3" defaultValue="3333" />
+            <input id="test3" style={styles.input} defaultValue="3333" />
             <button id="btn3">复制</button>
           </div>
         </div>
@@ -62,7 +68,7 @@ export default class Content extends Component {
           <h4>Test four</h4>
           <div>
             <span>测试内容：</span>
-            <input id="test4" defaultValue="4444" />
+            <input id="test4" style={styles.input} defaultValue="4444" />
             <button id="btn4">复制</button>
           </div>
         </div>
