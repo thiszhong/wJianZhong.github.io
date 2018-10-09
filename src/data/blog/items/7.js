@@ -38,7 +38,7 @@ export default class Content extends Component {
       <div>
         <p>复制</p>
         <h3 style={{color: 'red'}}>上山打老虎</h3>
-        <a ref={this.myRef} href="weixin://">打开微信</a>
+        <a style={{display: 'none'}} ref={this.myRef} href="weixin://">打开微信</a>
         {/* <a ref={this.myRef} href="https://baidu.com">打开微信</a> */}
       </div>
     )
