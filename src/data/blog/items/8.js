@@ -15,7 +15,7 @@ export default class Content extends Component {
   emojiSelect = emoji => {
     this.toggleEmojiMask()
     console.log('click', emoji)
-    this.myRef.current.innerHTML = this.myRef.current.innerHTML + `<img src="/emoji/${emoji}.png" alt="${emoji}" />`
+    this.myRef.current.innerHTML = this.myRef.current.innerHTML + `<img src="/blog/emoji/${emoji}.png" alt="${emoji}" />`
   }
 
   maskClick = e => {
