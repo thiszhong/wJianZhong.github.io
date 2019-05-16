@@ -15,7 +15,7 @@ export default class Content extends Component {
   emojiSelect = emoji => {
     this.toggleEmojiMask()
     console.log('click', emoji)
-    this.myRef.current.innerHTML = this.myRef.current.innerHTML + `<img src="/blog/emoji/${emoji}.png" alt="${emoji}" />`
+    this.myRef.current.innerHTML = this.myRef.current.innerHTML + `<img src="${process.env.PUBLIC_URL}/emoji/${emoji}.png" alt="${emoji}" />`
   }
 
   maskClick = e => {
@@ -33,7 +33,7 @@ export default class Content extends Component {
     return (
       <div>
         <button onClick={this.toggleEmojiMask}>选择表情</button>
-        <div ref={this.myRef} id="test" className="input" contentEditable suppressContentEditableWarning><img src="/blog/emoji/OK.png" alt="OK" />点击输入啊啊啊啊</div>
+        <div ref={this.myRef} id="test" className="input" contentEditable suppressContentEditableWarning><img src={process.env.PUBLIC_URL + '/emoji/OK.png'} alt="OK" />点击输入啊啊啊啊</div>
         
         {
           this.state.showEmojis ? (

@@ -2,7 +2,7 @@
   "name": "thiszhong.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/index/",
+  "homepage": "/blog/",
   "dependencies": {
     "clipboard": "^2.0.4",
     "normalize.css": "^8.0.1",
