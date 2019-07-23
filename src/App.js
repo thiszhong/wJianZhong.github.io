@@ -63,7 +63,10 @@ class App extends Component {
                 <Route exact path="/item/:id" component={BlogItem} />
                 <Route render={() => <div className="container text-center">Not Found</div>} />
               </Switch>
-
+              
+              <footer style={{background: 'black'}}>
+                <p style={{textAlign: 'center', margin: 0, padding: 10, color: 'white', fontSize: '12px'}}>豫ICP备17025073号-1</p>
+              </footer>
             </div>
           )}
         />
