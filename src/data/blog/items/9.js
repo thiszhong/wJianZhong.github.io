@@ -4,13 +4,13 @@ import '../../../styles/base.css'
 export default class Content extends Component {
 
   state = {
-    url: 'https://uland.taobao.com/coupon/edetail?e=yG4Eh5FAQewGQASttHIRqZgnwl9Xc1zo%2BtrJjxWNCKIx9fMaIDi1kVPMXZhNmyNvBJjEG0aISc3OULUs67NDzr9fwBwwUiqlt0yP%2FERbUEDdedyFw3M0hsHVq%2Fdxq%2FDATJnbK5InWznd4dRbTb5WN9VqM6BWlz38UtqM5E5JIeWwTqmDXTxmNDtwqbOwZxrv&traceId=0b83515f15400065576721840e&union_lens=lensId:0b0ad4b4_0be0_1668f8b3821_42c3&activityId=7031fb93f07d4621a2fffd96701e8962',
-    urlS: 'taobao://uland.taobao.com/coupon/edetail?e=yG4Eh5FAQewGQASttHIRqZgnwl9Xc1zo%2BtrJjxWNCKIx9fMaIDi1kVPMXZhNmyNvBJjEG0aISc3OULUs67NDzr9fwBwwUiqlt0yP%2FERbUEDdedyFw3M0hsHVq%2Fdxq%2FDATJnbK5InWznd4dRbTb5WN9VqM6BWlz38UtqM5E5JIeWwTqmDXTxmNDtwqbOwZxrv&traceId=0b83515f15400065576721840e&union_lens=lensId:0b0ad4b4_0be0_1668f8b3821_42c3&activityId=7031fb93f07d4621a2fffd96701e8962',
+    url: 'https://baidu.com',
+    urlS: 'pinduoduo://com.xunmeng.pinduoduo/duo_coupon_landing.html?goods_id=47270611358&pid=1001496_100022650&customParameters=%7B%22t-v-f-s-p%22%3A%220-0-5-64-openapp_local%22%7D&authDuoId=1031777&cpsSign=CC_191129_1001496_100022650_813620f9be288a4047fb9dd615e910c6&duoduo_type=2',
   }
 
   render () {
     return (
-      <div>
+      <div style={{marginTop: '50px'}}>
         <a href={this.state.urlS}>直接href</a>
         <div style={{marginTop: '20px'}}>
           <button onClick={this.testLocation}>Have a location</button>
